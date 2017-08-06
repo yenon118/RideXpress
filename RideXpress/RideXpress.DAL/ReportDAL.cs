@@ -39,7 +39,7 @@ namespace RideXpress.DAL
                             ReportDescription = reader["ReportDescription"].ToString(),
                             DateOfReport = reader["DateOfReport"].ToString()
                         };
-                        temp.Name = GetCarNameFromCarID(temp.CarID);    //Yen added this line.
+                        //temp.Name = GetCarNameFromCarID(temp.CarID);    //Yen added this line.
                         incident_reports.Add(temp);
                     }
                 }
@@ -62,7 +62,7 @@ namespace RideXpress.DAL
                     {
                         incident_report.ReportID = Convert.ToInt32(reader["ReportID"]);
                         incident_report.CarID = Convert.ToInt32(reader["CarID"]);
-                        incident_report.Name = GetCarNameFromCarID(incident_report.CarID);  //Yen added this line.
+                        //incident_report.Name = GetCarNameFromCarID(incident_report.CarID);  //Yen added this line.
                         incident_report.DateOfIncident = reader["DateOfIncident"].ToString();
                         incident_report.ReportName = reader["ReportName"].ToString();
                         incident_report.ReportDescription = reader["ReportDescription"].ToString();
@@ -122,6 +122,7 @@ namespace RideXpress.DAL
         }
 
         //Yen added this function.
+        /*
         private string GetCarNameFromCarID(int Car_ID)
         {
             string CarName = "";
@@ -141,5 +142,6 @@ namespace RideXpress.DAL
             }
             return CarName;
         }
+        */
     }
 }

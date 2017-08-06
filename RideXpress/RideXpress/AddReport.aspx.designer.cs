@@ -13,31 +13,31 @@ namespace RideXpress_StarterKit {
     public partial class AddReport {
         
         /// <summary>
-        /// CarIDLabel control.
+        /// CarIDListLabel control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label CarIDLabel;
+        protected global::System.Web.UI.WebControls.Label CarIDListLabel;
         
         /// <summary>
-        /// CarID control.
+        /// CarIDList control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox CarID;
+        protected global::System.Web.UI.WebControls.DropDownList CarIDList;
         
         /// <summary>
-        /// CarIDRequired control.
+        /// CarIDListRequired control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RequiredFieldValidator CarIDRequired;
+        protected global::System.Web.UI.WebControls.RequiredFieldValidator CarIDListRequired;
         
         /// <summary>
         /// DateOfIncidentLabel control.

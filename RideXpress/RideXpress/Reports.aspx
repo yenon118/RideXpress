@@ -28,7 +28,7 @@
                                         OnClientClick="if(!confirm('Are you sure you wish to delete this Report?')) return false;" />
                                 </ItemTemplate>
                             </asp:TemplateField>
-                            <asp:BoundField DataField="Name" HeaderText="Car" />
+                            <asp:BoundField DataField="Name" HeaderText="Car Owner" />
                             <asp:BoundField DataField="DateOfIncident" HeaderText="Date Of Incident" />
                             <asp:BoundField DataField="ReportName" HeaderText="Report Name" />
                             <asp:BoundField DataField="ReportDescription" HeaderText="Report Description" />

@@ -12,17 +12,18 @@
             <div class="form-horizontal">
                 <div class="form-group">
                     <!--ASP.NET Label Control goes here-->
-                    <asp:Label ID="CarIDLabel" runat="server" Text="Name"
-                        AssociatedControlID="CarID" CssClass="col-xs-4 control-label"></asp:Label>
+                    <asp:Label ID="CarIDListLabel" runat="server" Text="Car Owner"
+                        AssociatedControlID="CarIDList" CssClass="col-xs-4 control-label"></asp:Label>
                     <div class="col-xs-4">
                         <!--ASP.NET Server Control goes here (TextBox, DropDownList, etc.)-->
-                        <asp:TextBox ID="CarID" runat="server" CssClass="form-control" MaxLength="50" TextMode="SingleLine"></asp:TextBox>
+                        <asp:DropDownList ID="CarIDList" runat="server" CssClass="form-control" AppendDataBoundItems="true">
+                            <asp:ListItem Text="--Select a ride--" Value="-1"></asp:ListItem>
+                        </asp:DropDownList>
                         <div class="has-error">
                             <span class="help-block">
                                 <!--Validation Controls go here-->
-                                <asp:RequiredFieldValidator ID="CarIDRequired" runat="server" ErrorMessage="Car is Required"
-                                    ControlToValidate="CarID" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
-                            </span>
+                                <asp:RequiredFieldValidator ID="CarIDListRequired" runat="server" ErrorMessage="Car is Required" InitialValue="-1"
+                                    ControlToValidate="CarIDList" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>                            </span>
                         </div>
                     </div>
                 </div>
@@ -39,7 +40,7 @@
                             <asp:RequiredFieldValidator ID="DateOfIncidentRequired" runat="server" ErrorMessage="Date is Required" 
                                 ControlToValidate="DateOfIncident" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             <asp:RangeValidator ID="DateOfIncidentValidator" runat="server" ControlToValidate="DateOfIncident" Display="Dynamic"
-                                ValidationGroup="AllValidators" ErrorMessage="Please enter a valid date" Type="Date"></asp:RangeValidator>
+                                ValidationGroup="AllValidators" ErrorMessage="Please enter a valid date. Car older than 30 years are not accepted." Type="Date"></asp:RangeValidator>
                             </span>
                         </div>
                     </div>
