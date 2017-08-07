@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/RideXpress.Master" AutoEventWireup="true" CodeBehind="AddReport.aspx.cs" Inherits="RideXpress_StarterKit.AddReport" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MasterPages/RideXpress.Master" AutoEventWireup="true" CodeBehind="EditReport.aspx.cs" Inherits="RideXpress_StarterKit.EditReport" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -80,8 +80,8 @@
                 <div class="form-group">
                     <div class="col-xs-4 col-xs-offset-4">
                         <!--This is where your Submit button will go, you will use the OnClick Event to grab data from the form-->
-                        <asp:Button ID="ReportAddButton" runat="server" Text="Submit" CssClass="btn btn-success"
-                            OnClick="ReportAddButton_Click" ValidationGroup="AllValidators" />
+                        <asp:Button ID="ReportEditButton" runat="server" Text="Submit" CssClass="btn btn-success"
+                            OnClick="ReportEditButton_Click" ValidationGroup="AllValidators" />
                         <asp:HyperLink CssClass="btn btn-default" NavigateUrl="~/Reports.aspx" runat="server" Text="Back" />
                     </div>
                 </div>

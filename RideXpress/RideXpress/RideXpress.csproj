@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AddReport.aspx" />
+    <Content Include="EditReport.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -143,6 +144,13 @@
     </Compile>
     <Compile Include="EditCar.aspx.designer.cs">
       <DependentUpon>EditCar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="EditReport.aspx.cs">
+      <DependentUpon>EditReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="EditReport.aspx.designer.cs">
+      <DependentUpon>EditReport.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

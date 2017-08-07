@@ -75,7 +75,7 @@ namespace RideXpress.DAL
 
         public int EditIncidentReport(ReportViewModel edit)
         {
-            string sqlQuery = "UPDATE IncidentReport SET CarID=@CarID, DateOfIncident=@DateOfIncident, ReportName=@ReportName, ReportDescription=@ReportDescription, DateOfReport=@DateOfReport, " +
+            string sqlQuery = "UPDATE IncidentReport SET CarID=@CarID, DateOfIncident=@DateOfIncident, ReportName=@ReportName, ReportDescription=@ReportDescription, DateOfReport=@DateOfReport " +
                 "WHERE ReportID=@ReportID";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
