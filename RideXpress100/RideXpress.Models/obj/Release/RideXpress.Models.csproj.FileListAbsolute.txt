@@ -1,0 +1,5 @@
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.Models\bin\Release\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.Models\bin\Release\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.Models\obj\Release\RideXpress.Models.csprojResolveAssemblyReference.cache
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.Models\obj\Release\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.Models\obj\Release\RideXpress.Models.pdb

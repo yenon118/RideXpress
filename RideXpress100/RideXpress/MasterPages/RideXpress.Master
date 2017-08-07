@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RideXpress.master.cs" Inherits="RideXpress_StarterKit.MasterPages.RideXpress" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>RideXpress</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="../Content/bootstrap.css" rel="stylesheet" />
+    <link href="../Content/Site.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Righteous|Montserrat:400,700' rel='stylesheet' type='text/css' />
+
+</head>
+<body class="index">
+    <form id="form1" runat="server">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header page-scroll">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="~/Index.aspx">RideXpress</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="hidden active">
+                            <a runat="server" href="~/Index.aspx"></a>
+                        </li>
+                        <li class="page-scroll" runat="server" id="traineeMenu">
+                            <a runat="server" href="~/Cars.aspx">Car Inventory</a>
+                        </li>
+                        <li class="page-scroll" runat="server" id="reportMenu">
+                            <a runat="server" href="~/Reports.aspx" data-toggle="popover" data-title="Level 100" data-content="Incident & Maintenance Reports is the section that you will be creating for this Level 100 eInternship, click the link to see the look & feel of the Incident & Maintenance Report Management System." data-trigger="hover" data-placement="bottom">Incident Reports</a>
+
+                        </li>
+                        <li class="page-scroll" runat="server" id="aboutMenu">
+                            <a runat="server" href="~/About.aspx">About</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container-fluid -->
+        </nav>
+
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <footer class="text-center">
+            <div class="footer-below">
+                <div class="container">
+                    <div class="col-lg-12">
+                        &copy; <%: DateTime.Now.Year %> PropelForce.com
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../Script/Master.js" type="text/javascript"></script>
+    </form>
+</body>
+</html>

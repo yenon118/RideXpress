@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/RideXpress" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\yenon\\Desktop\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\yenon\\Desktop\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="RideXpressConnectionString-Web.config Connection String" description="" value="Data Source=DESKTOP-EA36C9S\SQLEXPRESS;Initial Catalog=RideXpress;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\yenon\\Desktop\\RideXpress\\RideXpress\\RideXpress\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='RideXpressConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,7 @@
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\bin\Release\RideXpress.DAL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\bin\Release\RideXpress.DAL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\bin\Release\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\bin\Release\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\obj\Release\RideXpress.DAL.csprojResolveAssemblyReference.cache
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\obj\Release\RideXpress.DAL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress\RideXpress.DAL\obj\Release\RideXpress.DAL.pdb
