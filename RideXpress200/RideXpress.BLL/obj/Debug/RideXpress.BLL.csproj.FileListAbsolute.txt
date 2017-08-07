@@ -1,0 +1,18 @@
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.BLL.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.BLL.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.DAL.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.Models.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.DAL.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\bin\Debug\RideXpress.Models.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.BLL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.BLL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.DAL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.DAL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\bin\Debug\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb
