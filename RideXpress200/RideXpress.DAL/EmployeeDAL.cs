@@ -127,5 +127,60 @@ namespace RideXpress.DAL
             }
         }
 
+        //Add this for testing
+        public int UpdateEmployeeEndDate(int id, string EmployeeEndDate)
+        {
+            string sqlQuery = "UPDATE Employee SET EndDate=@EndDate WHERE EmployeeID=@EmployeeID";
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                cmd.Parameters.Add("@EmployeeID", SqlDbType.Int).Value = id;
+                cmd.Parameters.Add("@EndDate", SqlDbType.VarChar).Value = EmployeeEndDate;
+                return cmd.ExecuteNonQuery();
+            }
+        }
+
+        public List<EmployeeViewModel> GetCurrentEmployeeInventory()
+        {
+            string sqlQuery = "SELECT * FROM Employee WHERE EndDate IS NULL";
+            List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
+            using (SqlConnection con = new SqlConnection(_connectionString))
+            using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
+            {
+                con.Open();
+                using (SqlDataReader reader = cmd.ExecuteReader())
+                {
+                    while (reader.Read())
+                    {
+                        EmployeeViewModel temp = new EmployeeViewModel()
+                        {
+                            EmployeeID = Convert.ToInt32(reader["EmployeeID"]),
+                            FirstName = reader["FirstName"].ToString(),
+                            LastName = reader["LastName"].ToString(),
+                            Gender = Convert.ToBoolean(reader["Gender"]),
+                            BirthDate = reader["BirthDate"].ToString(),
+                            JobTitle = reader["JobTitle"].ToString(),
+                            StartDate = reader["StartDate"].ToString(),
+                            EndDate = reader["EndDate"].ToString()
+                        };
+                        employees.Add(temp);
+                    }
+                }
+            }
+            return employees;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

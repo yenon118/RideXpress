@@ -47,5 +47,32 @@ namespace RideXpress.BLL
             return data.DeleteEmployee(id);
         }
 
+        //Add this for testing
+        public int UpdateEmployeeEndDate(int id, string EmployeeEndDate)
+        {
+            return data.UpdateEmployeeEndDate(id, EmployeeEndDate);
+        }
+
+        public List<EmployeeViewModel> GetCurrentEmployeeInventory()
+        {
+            List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
+            foreach (EmployeeViewModel model in data.GetCurrentEmployeeInventory())
+            {
+                employees.Add(model);
+            }
+            return employees;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }

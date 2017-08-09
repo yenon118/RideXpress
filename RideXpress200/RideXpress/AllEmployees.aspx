@@ -102,9 +102,7 @@
                             </div>
                         </div>
                         <div class="modal-footer">
-                            <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" class="btn btn-primary">Submit</button>-->
-                            <asp:Button ID="TerminateEmployeeCloseButton" runat="server" CssClass="btn btn-secondary" Text="Close" OnClick="TerminateEmployeeCloseButton_Click" ValidationGroup="AllValidators" />
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                             <asp:Button ID="TerminateEmployeeSubmitButton" runat="server" CssClass="btn btn-primary" Text="Submit" OnClick="TerminateEmployeeSubmitButton_Click" ValidationGroup="AllValidators" />
                         </div>
                     </div>

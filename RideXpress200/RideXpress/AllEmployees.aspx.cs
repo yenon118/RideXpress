@@ -27,13 +27,35 @@ namespace RideXpress_StarterKit
             }
         }
 
-        protected void TerminateEmployeeCloseButton_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void TerminateEmployeeSubmitButton_Click(object sender, EventArgs e)
         {
+            if (Page.IsValid)
+            {
+                int id;
+                string EmployeeEndDate = "";
+                EmployeeBLL bll = new EmployeeBLL(connectionString);
+                List<EmployeeViewModel> Terminate_Employee = bll.GetEmployeeInventory();
+
+                int i;
+                for (i = 0; i < Terminate_Employee.Count; i++)
+                {
+                    if (Terminate_Employee[i].Name.Equals(TerminateEmployeeList.SelectedItem.Text))
+                    {
+                        break;
+                    }
+                }
+
+                id = Terminate_Employee[i].EmployeeID;
+                EmployeeEndDate = TerminateEmployeeEndDate.Text;
+
+                bll.UpdateEmployeeEndDate(id, EmployeeEndDate);
+
+                Terminate_Employee.Clear();
+                Terminate_Employee = bll.GetEmployeeInventory();
+                BindData();
+                Response.Redirect("~/AllEmployees.aspx");
+
+            }
 
         }
 
@@ -43,6 +65,7 @@ namespace RideXpress_StarterKit
             EmployeeBLL EmployeeBL = new EmployeeBLL(connectionString);
             EmployeeBL.DeleteEmployee(EmployeeID);
             BindData();
+            Response.Redirect("~/AllEmployees.aspx");
         }
 
         private void BindData()
@@ -50,7 +73,8 @@ namespace RideXpress_StarterKit
             EmployeeBLL EmployeeBL = new EmployeeBLL(connectionString);
             List<EmployeeViewModel> employees = EmployeeBL.GetEmployeeInventory();
             string[] date_notime = new string[3];
-            
+            List<string> employees_in_modal = new List<string>();
+
             foreach (EmployeeViewModel element in employees)
             {
                 date_notime = element.BirthDate.Split(' ');
@@ -62,7 +86,14 @@ namespace RideXpress_StarterKit
                     date_notime = element.EndDate.Split(' ');
                     element.EndDate = date_notime[0];
                 }
+                else
+                {
+                    employees_in_modal.Add(element.Name);
+                }
             }
+
+            TerminateEmployeeList.DataSource = employees_in_modal;
+            TerminateEmployeeList.DataBind();
 
             EmployeeList.DataSource = employees;
             EmployeeList.DataBind();
