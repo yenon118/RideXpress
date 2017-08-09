@@ -66,7 +66,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Employees.aspx" />
+    <Content Include="AllEmployees.aspx" />
+    <Content Include="CurrentEmployees.aspx" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -128,6 +129,13 @@
     <Compile Include="Cars.aspx.designer.cs">
       <DependentUpon>Cars.aspx</DependentUpon>
     </Compile>
+    <Compile Include="CurrentEmployees.aspx.cs">
+      <DependentUpon>CurrentEmployees.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CurrentEmployees.aspx.designer.cs">
+      <DependentUpon>CurrentEmployees.aspx</DependentUpon>
+    </Compile>
     <Compile Include="EditCar.aspx.cs">
       <DependentUpon>EditCar.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -135,12 +143,12 @@
     <Compile Include="EditCar.aspx.designer.cs">
       <DependentUpon>EditCar.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Employees.aspx.cs">
-      <DependentUpon>Employees.aspx</DependentUpon>
+    <Compile Include="AllEmployees.aspx.cs">
+      <DependentUpon>AllEmployees.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Employees.aspx.designer.cs">
-      <DependentUpon>Employees.aspx</DependentUpon>
+    <Compile Include="AllEmployees.aspx.designer.cs">
+      <DependentUpon>AllEmployees.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

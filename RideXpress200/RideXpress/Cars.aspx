@@ -8,7 +8,7 @@
                 <div class="col-xs-10">
                     <h1>Rides List</h1>
                 </div>
-                <div class="col-xs-2">
+                <div class="col-xs-2" style="margin-top: 1em;">
                     <a href="~/AddCar.aspx" runat="server" class="btn btn-success">Add New Ride</a>
                 </div>
             </div>

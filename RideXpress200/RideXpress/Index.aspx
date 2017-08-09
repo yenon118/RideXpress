@@ -33,7 +33,7 @@
                     <h1>Have an Issue with Your Ride?</h1>
                     <p>Maintain Information About Your Employees Manage Employees.</p>
                     <p>
-                        <a href="~/Employees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
+                        <a href="~/CurrentEmployees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
                     </p>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 text-center">
                     <br />
-                    <a href="~/Employees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
+                    <a href="~/CurrentEmployees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
                 </div>
             </div>
         </div>

@@ -17,7 +17,7 @@ namespace RideXpress.BLL
             data = new EmployeeDAL(connectionString);
         }
 
-        public List<EmployeeViewModel> GetCarInventory()
+        public List<EmployeeViewModel> GetEmployeeInventory()
         {
             List<EmployeeViewModel> employees = new List<EmployeeViewModel>();
             foreach (EmployeeViewModel model in data.GetEmployeeInventory())

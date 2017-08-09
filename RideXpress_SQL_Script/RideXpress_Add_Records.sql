@@ -12,3 +12,6 @@ VALUES (6, '8/6/2016 9:48 PM', 'Rocky', 'Tires puncture causing highway accident
 
 
 SELECT * FROM IncidentReport
+
+INSERT INTO Employee (FirstName, LastName, Gender, BirthDate, JobTitle, StartDate, EndDate) 
+VALUES ('Joshua', 'Jacobson', 1, '8/6/1996', 'Tech Manager', '5/3/2015', '')

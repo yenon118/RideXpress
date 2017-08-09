@@ -17,6 +17,11 @@ namespace RideXpress.Models
         public string StartDate { get; set; }
         public string EndDate { get; set; }
 
+        public string Name
+        {
+            get { return FirstName + " " + LastName; }
+        }
+
         public string GenderDisplay
         {
             get
