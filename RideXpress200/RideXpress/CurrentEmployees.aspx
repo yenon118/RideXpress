@@ -8,17 +8,17 @@
 
             <div class="row">
                 <div class="col-xs-6">
-                    <h1>Employee List</h1>
+                    <h1>Employees List</h1>
                 </div>
                 <div class="col-xs-2" style="margin-top: 1em;">
-                    <a href="~/AddEmployee.aspx" runat="server" class="btn btn-success" data-toggle="popover" data-title="Add New Employee" data-content="Click here to see the Add New Employee Form." data-trigger="hover" data-placement="bottom">Add New Employee</a>
+                    <a href="~/AddEmployee.aspx" runat="server" class="btn btn-success" data-toggle="popover" data-title="Add New Employee" data-content="Click here to add a new employee." data-trigger="hover" data-placement="bottom">Add New Employee</a>
                 </div>
                 <div class="col-xs-2" style="margin-top: 1em;">
                     <button type="button" class="btn btn-default" data-toggle="modal" data-target="#TerminateEmployeeModal">Terminate Employee</button>
                     <!--<a href="#" runat="server" class="btn btn-success" data-toggle="modal" data-target="#TerminateEmployeeModal" data-title="Terminate Employees" data-content="Click here to see the Terminate Employee Form." data-trigger="hover" data-placement="bottom">Terminate Employee</a>-->
                 </div>
                 <div class="col-xs-2" style="margin-top: 1em;">
-                    <a href="~/AllEmployees.aspx" runat="server" class="btn btn-success" data-toggle="popover" data-title="All Employees" data-content="Click here to see the All Employees Form." data-trigger="hover" data-placement="bottom">All Employees</a>
+                    <a href="~/AllEmployees.aspx" runat="server" class="btn btn-success" data-toggle="popover" data-title="All Employees" data-content="Click here to see all employees." data-trigger="hover" data-placement="bottom">All Employees</a>
                 </div>
             </div>
 

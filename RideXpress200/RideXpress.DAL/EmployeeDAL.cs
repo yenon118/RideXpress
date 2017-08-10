@@ -78,7 +78,7 @@ namespace RideXpress.DAL
         public int EditEmployee(EmployeeViewModel edit)
         {
             string sqlQuery = "UPDATE Employee SET FirstName=@FirstName, LastName=@LastName, Gender=@Gender, BirthDate=@BirthDate, JobTitle=@JobTitle, " +
-                "StartDate=@StartDate, EndDate=@EndDate WHERE EmployeeID=@EmployeeID";
+                "StartDate=@StartDate WHERE EmployeeID=@EmployeeID";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
             {
@@ -90,15 +90,15 @@ namespace RideXpress.DAL
                 cmd.Parameters.Add("@BirthDate", SqlDbType.VarChar).Value = edit.BirthDate;
                 cmd.Parameters.Add("@JobTitle", SqlDbType.VarChar).Value = edit.JobTitle;
                 cmd.Parameters.Add("@StartDate", SqlDbType.VarChar).Value = edit.StartDate;
-                cmd.Parameters.Add("@EndDate", SqlDbType.VarChar).Value = edit.EndDate;
+
                 return cmd.ExecuteNonQuery();
             }
         }
 
         public int AddEmployee(EmployeeViewModel add)
         {
-            string sqlQuery = "INSERT INTO Employee (FirstName, LastName, Gender, BirthDate, JobTitle, StartDate, EndDate) " +
-                "VALUES (@FirstName, @LastName, @Gender, @BirthDate, @JobTitle, @StartDate, @EndDate)";
+            string sqlQuery = "INSERT INTO Employee (FirstName, LastName, Gender, BirthDate, JobTitle, StartDate) " +
+                "VALUES (@FirstName, @LastName, @Gender, @BirthDate, @JobTitle, @StartDate)";
             using (SqlConnection con = new SqlConnection(_connectionString))
             using (SqlCommand cmd = new SqlCommand(sqlQuery, con))
             {
@@ -110,7 +110,6 @@ namespace RideXpress.DAL
                 cmd.Parameters.Add("@BirthDate", SqlDbType.VarChar).Value = add.BirthDate;
                 cmd.Parameters.Add("@JobTitle", SqlDbType.VarChar).Value = add.JobTitle;
                 cmd.Parameters.Add("@StartDate", SqlDbType.VarChar).Value = add.StartDate;
-                cmd.Parameters.Add("@EndDate", SqlDbType.VarChar).Value = add.EndDate;
                 return cmd.ExecuteNonQuery();
             }
         }
