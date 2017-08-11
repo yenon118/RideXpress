@@ -14,10 +14,9 @@ namespace RideXpress.Models
         public string TaskTitle { get; set; }
         public string TaskDescription { get; set; }
         public string DateAssigned { get; set; }
-        public bool TaskStatus { get; set; }
         public string DateComplete { get; set; }
 
-        public string CarName { get; set; }
+        public string Name { get; set; }
 
         public string EmployeeFirstName { get; set; }
         public string EmployeeLastName { get; set; }
@@ -31,7 +30,7 @@ namespace RideXpress.Models
         {
             get
             {
-                if (TaskStatus == true)
+                if (String.IsNullOrEmpty(DateComplete))
                     return "Active";
                 else
                     return "Completed";

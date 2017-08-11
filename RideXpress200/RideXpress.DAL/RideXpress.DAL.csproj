@@ -43,6 +43,7 @@
     <Compile Include="CarDAL.cs" />
     <Compile Include="EmployeeDAL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaskDAL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\RideXpress.Models\RideXpress.Models.csproj">

@@ -25,14 +25,14 @@
                 <div class="col-lg-12 text-center">
                     <!--GridView goes here-->
                     <asp:GridView ID="EmployeeList" runat="server" CssClass="table table-bordered text-left"
-                        AutoGenerateColumns="False" OnRowDeleting="EmployeeList_RowDeleting" DataKeyNames="EmployeeID">
+                        AutoGenerateColumns="False" OnRowDeleting="EmployeeList_RowDeleting" DataKeyNames="EmployeeID" OnRowDataBound="EmployeeList_RowDataBound">
                         <Columns>
                             <asp:HyperLinkField Text="Edit" DataNavigateUrlFields="EmployeeID"
                                 DataNavigateUrlFormatString="~/EditEmployee.aspx?EmployeeID={0}" ControlStyle-CssClass="btn btn-success btn-xs"
                                 ItemStyle-CssClass="text-center" />
                             <asp:TemplateField ItemStyle-CssClass="text-center">
                                 <ItemTemplate>
-                                    <asp:Button runat="server" ID="DeleteButton" CommandName="Delete"
+                                    <asp:Button runat="server" ID="DeleteButton" CommandName="Delete" Visible="false"
                                         CssClass="btn btn-xs btn-default" Text="Delete"
                                         OnClientClick="if(!confirm('Are you sure you wish to delete this Report?')) return false;" />
                                 </ItemTemplate>

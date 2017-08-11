@@ -10,16 +10,7 @@
 namespace RideXpress_StarterKit {
     
     
-    public partial class Tasks {
-        
-        /// <summary>
-        /// TaskList control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView TaskList;
+    public partial class EditTask {
         
         /// <summary>
         /// SelectCarLabel control.
@@ -130,12 +121,12 @@ namespace RideXpress_StarterKit {
         protected global::System.Web.UI.WebControls.RequiredFieldValidator AssignedEmployeeRequired;
         
         /// <summary>
-        /// TerminateEmployeeSubmitButton control.
+        /// TaskEditButton control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button TerminateEmployeeSubmitButton;
+        protected global::System.Web.UI.WebControls.Button TaskEditButton;
     }
 }

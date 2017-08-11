@@ -31,13 +31,13 @@
                             <asp:HyperLinkField Text="Edit" DataNavigateUrlFields="EmployeeID"
                                 DataNavigateUrlFormatString="~/EditEmployee.aspx?EmployeeID={0}" ControlStyle-CssClass="btn btn-success btn-xs"
                                 ItemStyle-CssClass="text-center" />
-                            <asp:TemplateField ItemStyle-CssClass="text-center">
+                            <%--<asp:TemplateField ItemStyle-CssClass="text-center">
                                 <ItemTemplate>
                                     <asp:Button runat="server" ID="DeleteButton" CommandName="Delete"
                                         CssClass="btn btn-xs btn-default" Text="Delete"
                                         OnClientClick="if(!confirm('Are you sure you wish to delete this Report?')) return false;" />
                                 </ItemTemplate>
-                            </asp:TemplateField>
+                            </asp:TemplateField>--%>
                             <asp:BoundField DataField="Name" HeaderText="Name" />
                             <asp:BoundField DataField="GenderDisplay" HeaderText="Gender" />
                             <asp:BoundField DataField="BirthDate" HeaderText="Date Of Birth" />

@@ -20,7 +20,7 @@
                         <div class="has-error">
                             <span class="help-block">
                                 <!--Validation Controls go here-->
-                                <asp:RequiredFieldValidator ID="EmployeeFirstNameRequired" runat="server" ErrorMessage="First Name is Required" InitialValue="-1"
+                                <asp:RequiredFieldValidator ID="EmployeeFirstNameRequired" runat="server" ErrorMessage="First Name is Required"
                                     ControlToValidate="EmployeeFirstName" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
@@ -36,7 +36,7 @@
                         <div class="has-error">
                             <span class="help-block">
                                 <!--Validation Controls go here-->
-                                <asp:RequiredFieldValidator ID="EmployeeLastNameRequired" runat="server" ErrorMessage="Last Name is Required" InitialValue="-1"
+                                <asp:RequiredFieldValidator ID="EmployeeLastNameRequired" runat="server" ErrorMessage="Last Name is Required"
                                     ControlToValidate="EmployeeLastName" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>
@@ -87,7 +87,7 @@
                         <div class="has-error">
                             <span class="help-block">
                                 <!--Validation Controls go here-->
-                                <asp:RequiredFieldValidator ID="EmployeeJobTitleRequired" runat="server" ErrorMessage="Last Name is Required" InitialValue="-1"
+                                <asp:RequiredFieldValidator ID="EmployeeJobTitleRequired" runat="server" ErrorMessage="Job Title is Required"
                                     ControlToValidate="EmployeeJobTitle" Display="Dynamic" ValidationGroup="AllValidators"></asp:RequiredFieldValidator>
                             </span>
                         </div>

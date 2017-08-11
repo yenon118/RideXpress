@@ -99,5 +99,14 @@ namespace RideXpress_StarterKit
             EmployeeList.DataBind();
         }
 
+        protected void EmployeeList_RowDataBound(object sender, GridViewRowEventArgs e)
+        {
+            if (e.Row.Cells[7].Text.Contains("/"))
+            {
+                e.Row.FindControl("DeleteButton").Visible = true;
+            }
+        }
+
+
     }
 }
