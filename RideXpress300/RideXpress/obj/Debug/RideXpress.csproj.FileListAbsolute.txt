@@ -1,0 +1,105 @@
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\csc.exe
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\System.Collections.Immutable.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\vbc.exe
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\VBCSCompiler.exe
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\roslyn\VBCSCompiler.exe.config
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress-StarterKit.dll.config
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress-StarterKit.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress-StarterKit.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.BLL.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.Models.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.DAL.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.BLL.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.Models.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\bin\RideXpress.DAL.pdb
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\obj\Debug\RideXpress-StarterKit.dll
+c:\users\joon\documents\visual studio 2015\Projects\RideXpress-StarterKit\RideXpress-StarterKit\obj\Debug\RideXpress-StarterKit.pdb
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\csc.exe
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\vbc.exe
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\VBCSCompiler.exe
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress-StarterKit.dll.config
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress-StarterKit.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress-StarterKit.pdb
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.BLL.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.Models.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.DAL.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.BLL.pdb
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.Models.pdb
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\bin\RideXpress.DAL.pdb
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\obj\Debug\RideXpress-StarterKit.dll
+C:\Users\Joon\Documents\Visual Studio 2015\Projects\RideXpress-StarterKit\RideXpress\obj\Debug\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\csc.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\vbc.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\VBCSCompiler.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress-StarterKit.dll.config
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress-StarterKit.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.BLL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.DAL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.BLL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.DAL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress-StarterKit.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\csc.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\vbc.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\VBCSCompiler.exe
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress-StarterKit.dll.config
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress-StarterKit.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.BLL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.Models.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.DAL.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.BLL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\bin\RideXpress.DAL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\obj\Debug\RideXpress-StarterKit.dll
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\obj\Debug\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress300\RideXpress\obj\Debug\RideXpress.csproj.CoreCompileInputs.cache
