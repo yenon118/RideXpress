@@ -7,3 +7,4 @@ C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.Models\bin\Debug\Ride
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.Models\obj\Debug\RideXpress.Models.csprojResolveAssemblyReference.cache
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.Models\obj\Debug\RideXpress.Models.dll
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.Models\obj\Debug\RideXpress.Models.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.Models\obj\Debug\RideXpress.Models.csproj.CoreCompileInputs.cache

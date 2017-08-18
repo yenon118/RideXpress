@@ -25,3 +25,4 @@ C:\Users\yenon\Desktop\RideXpress\RideXpress100\RideXpress.BLL\bin\Debug\RideXpr
 C:\Users\yenon\Desktop\RideXpress\RideXpress100\RideXpress.BLL\obj\Debug\RideXpress.BLL.csprojResolveAssemblyReference.cache
 C:\Users\yenon\Desktop\RideXpress\RideXpress100\RideXpress.BLL\obj\Debug\RideXpress.BLL.dll
 C:\Users\yenon\Desktop\RideXpress\RideXpress100\RideXpress.BLL\obj\Debug\RideXpress.BLL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress100\RideXpress.BLL\obj\Debug\RideXpress.BLL.csproj.CoreCompileInputs.cache

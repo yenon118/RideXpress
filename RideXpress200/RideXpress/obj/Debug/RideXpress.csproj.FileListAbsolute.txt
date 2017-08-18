@@ -76,3 +76,4 @@ C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\bin\RideXpress.DAL.pd
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress.csprojResolveAssemblyReference.cache
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress-StarterKit.dll
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress-StarterKit.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress\obj\Debug\RideXpress.csproj.CoreCompileInputs.cache

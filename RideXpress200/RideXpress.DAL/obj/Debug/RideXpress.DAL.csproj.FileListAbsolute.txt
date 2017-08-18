@@ -12,3 +12,4 @@ C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.DAL\bin\Debug\RideXpr
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.DAL\obj\Debug\RideXpress.DAL.csprojResolveAssemblyReference.cache
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.DAL\obj\Debug\RideXpress.DAL.dll
 C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.DAL\obj\Debug\RideXpress.DAL.pdb
+C:\Users\yenon\Desktop\RideXpress\RideXpress200\RideXpress.DAL\obj\Debug\RideXpress.DAL.csproj.CoreCompileInputs.cache

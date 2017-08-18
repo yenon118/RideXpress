@@ -31,6 +31,7 @@ namespace RideXpress_StarterKit.MasterPages
                 traineeMenu.Visible = false;
                 employeeMenu.Visible = false;
                 taskMenu.Visible = false;
+                LogoutLinkButton.Visible = false;
             }
 
             if (url.Contains("car"))
@@ -58,5 +59,27 @@ namespace RideXpress_StarterKit.MasterPages
                 aboutMenu.Attributes.Add("class", "active");
             }
         }
+
+        protected void Logout_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    Session.Abandon();
+                    FormsAuthentication.SignOut();
+                    Session.RemoveAll();
+
+
+                    Response.Redirect("~/Index.aspx");
+                }
+            }
+        }
+
+
+
+
+
+
     }
 }

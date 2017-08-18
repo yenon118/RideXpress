@@ -51,6 +51,9 @@
                         <li class="page-scroll" runat="server" id="aboutMenu">
                             <a runat="server" href="~/About.aspx">About</a>
                         </li>
+                        <li class="page-scroll" runat="server" id="logoutMenu">
+                            <asp:LinkButton ID="LogoutLinkButton" runat="server" OnClick="Logout_Click">Logout</asp:LinkButton>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->

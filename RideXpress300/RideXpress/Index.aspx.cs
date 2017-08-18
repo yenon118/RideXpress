@@ -13,5 +13,54 @@ namespace RideXpress_StarterKit
         {
 
         }
+
+        protected void CarsaspxButton_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect("~/Cars.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/Login.aspx");
+                }
+            }
+        }
+
+        protected void CurrentEmployeesaspxButton_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect("~/CurrentEmployees.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/Login.aspx");
+                }
+            }
+        }
+
+        protected void TasksaspxButton_Click(object sender, EventArgs e)
+        {
+            if (Page.IsValid)
+            {
+                if (HttpContext.Current.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect("~/Tasks.aspx");
+                }
+                else
+                {
+                    Response.Redirect("~/Login.aspx");
+                }
+            }
+        }
+
+
+
+
     }
 }

@@ -23,7 +23,7 @@
                     <h1>View & Manage Every Ride Available.</h1>
                     <p>Instant access to all of your Rides, with a click of a button!</p>
                     <p>
-                        <a href="~/Cars.aspx" runat="server" class="btn btn-lg btn-success">Go To Rides List</a>
+                        <asp:Button ID="Cars_aspx_Button" runat="server" Text="Go To Rides List"  CssClass="btn btn-lg btn-success" OnClick="CarsaspxButton_Click" ValidationGroup="AllValidators"/>
                     </p>
                 </div>
             </div>
@@ -33,7 +33,7 @@
                     <h1>Have an Issue with Your Ride?</h1>
                     <p>Maintain Information About Your Employees Manage Employees.</p>
                     <p>
-                        <a href="~/CurrentEmployees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
+                        <asp:Button ID="CurrentEmployees_aspx_Button" runat="server" Text="Manage Employees"  CssClass="btn btn-lg btn-success" OnClick="CurrentEmployeesaspxButton_Click" ValidationGroup="AllValidators"/>
                     </p>
                 </div>
             </div>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 text-center">
                     <br />
-                    <a href="~/Cars.aspx" runat="server" class="btn btn-lg btn-outline">Go To Rides List</a>
+                    <asp:Button ID="Cars_aspx_Button1" runat="server" Text="Go To Rides List"  CssClass="btn btn-lg btn-outline" OnClick="CarsaspxButton_Click" ValidationGroup="AllValidators"/>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 text-center">
                     <br />
-                    <a href="~/CurrentEmployees.aspx" runat="server" class="btn btn-lg btn-success">Manage Employees</a>
+                    <asp:Button ID="CurrentEmployees_aspx_Button1" runat="server" Text="Manage Employees"  CssClass="btn btn-lg btn-success" OnClick="CurrentEmployeesaspxButton_Click" ValidationGroup="AllValidators"/>
                 </div>
             </div>
         </div>
@@ -98,7 +98,7 @@
                 </div>
                 <div class="col-xs-8 col-xs-offset-2 text-center">
                     <br />
-                    <a href="~/Tasks.aspx" runat="server" class="btn btn-lg btn-outline">Manage Tasks</a>
+                    <asp:Button ID="Tasks_aspx_Button1" runat="server" Text="Manage Tasks"  CssClass="btn btn-lg btn-outline" OnClick="TasksaspxButton_Click" ValidationGroup="AllValidators"/>
                 </div>
             </div>
         </div>
