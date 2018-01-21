@@ -6,7 +6,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <h1>Add Ride</h1>
+                    <h1>Edit Ride</h1>
                 </div>
             </div>
             <div class="form-horizontal">
