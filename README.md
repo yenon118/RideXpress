@@ -1,5 +1,7 @@
 # RideXpress
 
+RideXpress is an Automated Car Rental System (ARCS) platform. This project is provided by Revature Coding Bootcamp for students who interested in a career in Technology and Programming.
+
 <br /><br />
 If you like my work, you can support me by clicking the link below.    :smile:
 <br />
